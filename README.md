@@ -1,15 +1,21 @@
 # BS-ArduinoIDE-Basics
+## Inhalt
+
+Inhaltsangabe coming soon haha
+
+
+
 
 # Basic File Structure
 
-Zeilen die mit // anfangen, sind Kommentare, diese haben nichts mit der ausführung des Codes zutun, und werden nur zur übersicht verwendet
+Zeilen die mit // anfangen, sind ``// Kommentare``, diese haben nichts mit der ausführung des Codes zutun, und werden nur zur übersicht verwendet
 ```c++
 void setup() {
   // so sieht ein Kommentar aus :)
 }
 ```
 
-### Leeres Skript / Basis vonn allen Sketchen ("Programme" die für z.B. Arduinos oder ESP8266 geschrieben wurden):
+### Leeres Skript / Basis von allen Sketchen ("Programme" die für z.B. Arduinos oder ESP8266 geschrieben wurden):
 Das ist der Code, der in der IDE steht, wenn ein neuer Sketch erstellt wird
 ```c++
 void setup() {
@@ -64,6 +70,7 @@ void loop() {
 ```
 
 ## Temperatur
+Spezifisch benutzen wir den DS18B20 Sensor. Es gibt verschiedene arten von Temperatur Sensoren. Der Code kann bei verschiedenen Typen von Sensoren unterschiedlich sein. In der schule benutzen wir aber so weit nur den DS18B20
 
 ```c++
 #include <OneWire.h>          // Inkludiert die OneWire-Bibliothek, die für die Kommunikation mit 1-Wire-Geräten, wie dem DS18B20-Temperatursensor, benötigt wird
@@ -89,5 +96,58 @@ void loop() {
 }
 ```
 
+## Binary Sensor
+Ein Binary Sensor kann alles sein was nur 2 Zustände hat, wie z.B. Ein Schalter, Druckknopf, Touch Sensor, Bewegungsmelder. 
+
+```c++
+int button_pin = 0; // Definiert den Pin an dem der Button verbunden ist
+
+void setup() {
+  pinMode(button_pin, INPUT); // Setzt den Button Pin auf Input Mode
+}
+
+void loop() {
+  bool button_status = digitalRead(button_pin); // Liest aus ob der Button Gedrückt ist, und speichert dass dann in der Variable button_status
+}
+```
 
 
+## Piezo Buzzer
+
+Dieser Code lässt de Buzzer in einem Intervall von 500ms Piepen
+```c++
+int piezo_pin = 0; // Definiert den Pin an dem der Buzzer verbunden ist
+
+void setup() {
+pinMode(piezo_pin, OUTPUT); // Setzt den piezo_pin in den Output mode 
+}
+
+void loop() {
+  tone(piezo_pin, 1234); // Startet die Tonausgabe am piezo_pin, mit einer Frequenz (Tonhöhe) von 1234 Hz
+  delay(500); // wartet 500 ms
+  noTone(piezo_pin); // Stoppt die Tonausgabe am piezo_pin wieder
+  delay(500); // wartet 500 ms
+}
+```
+
+
+## LED 
+
+Dieser Code lässt die LED Blinken.
+```c++
+int led_pin = 0; // Definiert den Pin an dem die LED verbunden ist
+
+
+void setup() {
+  pinMode(led_pin, OUTPUT); // Setzt den led_pin in den Output mode 
+}
+
+
+void loop() {
+  digitalWrite(led_pin, HIGH);  // LED wird angeschalten
+  delay(500); // wartet 500 ms
+  digitalWrite(led_pin, LOW);   // LED wird ausgeschalten
+  delay(500); // wartet 500 ms
+}
+
+```
