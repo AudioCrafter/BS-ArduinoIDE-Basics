@@ -4,6 +4,8 @@
 Inhaltsangabe coming soon haha
 
 
+[Link Text](#basic-file-structure).
+
 
 
 # Basic File Structure
@@ -18,6 +20,9 @@ void setup() {
 ### Leeres Skript / Basis von allen Sketchen ("Programme" die für z.B. Arduinos oder ESP8266 geschrieben wurden):
 Das ist der Code, der in der IDE steht, wenn ein neuer Sketch erstellt wird
 ```c++
+
+  // Vor den Methoden kann bereits Code stehen, z.B. werden hier üblicherweise Variablen Inizialisiert. 
+
 void setup() {
   // Hier steht der Code der am anfang, wenn der SBC (Single Board Computer) startet, EINMAL ausgeführt wird
 }
