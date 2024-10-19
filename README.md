@@ -4,7 +4,16 @@
 Inhaltsangabe coming soon haha
 
 
-[Link Text](#basic-file-structure).
+[Basic File Structure](#basic-file-structure).
+[Leeres Skript](#leeres-skript)
+[Serial Monitor](#serial-monitor)
+[Sensoren und Aktoren](#externe-komponenten)
+  [Mikrofon](#Mikrofon)
+  [Temperatur](#Temperatur)
+  [Binary Sensor](#binary-sensor)
+  [Piezo Buzzer](#piezo-buzzer)
+  [LED](#led)
+
 
 
 
@@ -17,7 +26,8 @@ void setup() {
 }
 ```
 
-### Leeres Skript / Basis von allen Sketchen ("Programme" die für z.B. Arduinos oder ESP8266 geschrieben wurden):
+# Leeres Skript
+## Basis von allen Sketchen ("Programme" die für z.B. Arduinos oder ESP8266 geschrieben wurden):
 Das ist der Code, der in der IDE steht, wenn ein neuer Sketch erstellt wird
 ```c++
 
@@ -32,7 +42,8 @@ void loop() {
 }
 ```
 
-# Serial Monitor (Printen von Text / informationen, von dem ESP an den Computer)
+# Serial Monitor 
+## (Printen von Text / informationen, von dem ESP an den Computer)
 
 ```c++
 void setup() {
@@ -56,7 +67,8 @@ void loop() {
 ```
 
 
-# Externe Komponenten (z.B. Sensoren und Aktoren)
+# Externe Komponenten
+## (z.B. Sensoren und Aktoren)
 
 ## Mikrofon
 
