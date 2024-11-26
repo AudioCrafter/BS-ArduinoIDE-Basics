@@ -116,6 +116,14 @@ IoT-Geräte sind oft anfällig für Sicherheitsprobleme wie unzureichende Versch
 ## **UART:** 
 Universal Asynchronous Receiver Transmitter ist ein serielles Kommunikationsprotokoll, das Daten zwischen zwei Geräten über zwei Leitungen (Daten senden und empfangen) asynchron überträgt, das bedeutet dass die Datenübertragung ohne ein gemeinsames Taktsignal (Clock) erfolgt. Stattdessen synchronisieren sich Sender und Empfänger mithilfe von Start- und Stopp-Bits am Anfang und Ende jeder Datenübertragung.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 
 
 # Generelle infos
