@@ -180,89 +180,89 @@ void loop() {
 
 # Fachbegriffe
 
-### **Aktoren mit Beispielen:** 
+## **Aktoren mit Beispielen:** 
 Elektrische (steuer) Signale werden in Physikalische größen umgesetzt, wie z.B. Eine LED, Motor, Lautsprecher oder Relay
 
-### **analoge Signale:**  
+## **analoge Signale:**  
 Sensoren erzeugen bzw. Aktoren benötigen analoge oder digitale Signale meist in Form einer elektrischen Spannung. Analoge Signale haben einen stufenlosen und beliebig feinen Verlauf. Da  Analogsignale einen kontinuierlichen Vorgang zeitlich kontinuierlich abbilden, bezeichnet man diese auch als wert– und zeitkontinuierlich.
 Beispiel für analoge Werte:
 
 ![Beispiel für einen Analogen Wert](https://github.com/AudioCrafter/BS-ArduinoIDE-Basics/blob/main/Analoge%20werte%20beispiel.png?raw=true)
 
 
-### **Anschlusstechnik Bus mit Beispielen:** 
+## **Anschlusstechnik Bus mit Beispielen:** 
 Ein Bus ist ein gemeinsamer Datenweg, über den mehrere Geräte oder Komponenten Informationen austauschen können, indem sie sich denselben Übertragungskanal teilen. Beispielsweise Ein Bus im Auto, der Steuergeräte (z. B. für Motor, ABS, oder Licht) miteinander kommunizieren lässt. oder I2C, der Sensoren und Conputer miteinander Kommunizieren lässt 
 
-### **Anschlusstechnik Schnittstelle mit Beispielen:**
+## **Anschlusstechnik Schnittstelle mit Beispielen:**
 beschreibt die physischen und logischen Verbindungen, die verschiedene Geräte oder Systeme miteinander verbinden, um Daten auszutauschen. Sie umfasst sowohl die Hardware (Stecker, Kabel, Ports) als auch die Kommunikationsprotokolle, die den Datenaustausch regeln. Eine Schnittstelle ist der Punkt, an dem zwei Systeme miteinander kommunizieren können.
 
 Beispielsweie RJ45, HDMI, USB
 
-### **Automatisierungspyramide:**
+## **Automatisierungspyramide:**
 ![Automatisierungspyramiede](https://www.iph-hannover.de/de/dienstleistungen/automatisierungstechnik/automatisierungspyramide/Automatisierungspyramide.png)
 
-### **binäre Signale:**
+## **binäre Signale:**
 Binäre Signale sind digitale Signale, die nur zwei Zustände annehmen können, meist 0 und 1. Diese Zustände repräsentieren in der Regel "aus" (0) und "ein" (1) oder niedrig (Low) und hoch (High). Binäre Signale sind die Grundlage der digitalen Kommunikation und der meisten modernen elektronischen Systeme.
 
-### **Bridge:** 
+## **Bridge:** 
 "Interface" Gerät, um zwischen verschiedenen System zu kommunizieren. Bekanntestes beispiel: Phillips Hue Bridge, Empfängt signale per W-Lan, und sendet diese Signale weiter an Lampen mit dem Funkstandart Zigbee
 
-### **Cyberphysische Systeme und ihre Einsatzmöglichkeiten:**
+## **Cyberphysische Systeme und ihre Einsatzmöglichkeiten:**
 
-### **digitale Signale:** 
+## **digitale Signale:** 
 Digitale Signale können nur einzelne, fest vorgegebene Werte (vorgegebener Symbolvorrat) annehmen. Somit bezeichnet man ein digitales Signal auch Signal, das durch diskrete Werte (Zustände) repräsentiert wird.
 Beispiel für digitale Werte:
 
 ![Beispiel für einen digitalen Wert](https://github.com/AudioCrafter/BS-ArduinoIDE-Basics/blob/main/Digitale%20werte%20beispiel.png?raw=true)
 
-### **Embedded Systems:**
+## **Embedded Systems:**
 Spezialisierte Computer, die in andere Geräte oder Maschinen integriert sind, um bestimmte, häufig wiederkehrende Aufgaben zu erfüllen. Sie sind darauf ausgelegt, mit der Hardware zu interagieren und eine spezifische Funktion auszuführen, ohne dass ein Benutzer direkt damit interagiert.
 
-### **ESD:** 
+## **ESD:** 
 "Electrostatic Discharge" unkontrollierter Ausgleich elektrischer Ladung zwischen zwei unterschiedlich stark aufgeladenen Objekten. z.B. Der kleine Stromschlag beim anfassen einer Türklinke wenn man über teppich läuft
 
-### **Feldbus:** 
+## **Feldbus:** 
 Bussystem, das in einer Anlage Feldgeräte wie Messfühler (Sensoren) und Stellglieder (Aktoren) zur Kommunikation mit einem Automatisierungsgerät verbindet (rellativ Störungs-unanfällig)
 
-### **GPIO:** 
+## **GPIO:** 
 "General Purpose Input/Output" allgemeiner digitaler Pin an z.B. einem Single Board Computer, dessen Verhalten, unabhängig, ob als Eingabe- oder Ausgabekontakt, durch logische Programmierung frei bestimmbar ist
 
-### **I2C:** 
+## **I2C:** 
 I²C (Inter-Integrated Circuit) ist ein einfacher Datenbus, der es Single Board Computern und Sensoren ermöglicht, über nur zwei Leitungen (Daten und Takt) miteinander zu kommunizieren.
 
 ### **Industrie 4.0:**
 bezeichnet die vierte industrielle Revolution, die durch den Einsatz moderner digitaler Technologien in der Fertigungs- und Produktionsindustrie geprägt ist. Sie basiert auf der Vernetzung von Maschinen, Systemen und Produktionsprozessen durch intelligente Technologien und ist stark von der Digitalisierung und Automatisierung geprägt. Ziel ist es, die Produktionsprozesse effizienter, flexibler und autonomer zu gestalten.
 
-### **Internet of Things:** 
+## **Internet of Things:** 
 Internet of Things bezeichnet ein Netzwerk aus miteinander verbundenen physischen Geräten, die über das Internet oder Netzwerk Daten senden, empfangen und oft auch untereinander kommunizieren können, um Prozesse zu automatisieren und Informationen bereitzustellen. Beispiele sind smarte Thermostate oder vernetzte Glühbirnen.
 
-### **M2M:**
+## **M2M:**
  Machine to Machine bezeichnet die direkte Kommunikation zwischen Maschinen, Geräten oder Systemen ohne die Notwendigkeit menschlicher Interaktion.
 
-### **Master-Slave-Prinzip:**
+## **Master-Slave-Prinzip:**
 beschreibt eine Kommunikationsstruktur, bei der ein Master-Gerät die Kontrolle über den Datenaustausch hat und die Slave-Geräte als Reaktion auf Anfragen des Masters handeln. Der Master initiiert die Kommunikation, während die Slaves auf diese Anfragen reagieren und keine eigenständige Kontrolle ausüben.
 
 In vielen Systemen, wie etwa in seriellen Kommunikationsprotokollen oder Bus-Systemen (z. B. I²C), kann nur der Master Daten senden oder empfangen, während die Slaves in der Regel nur auf Anforderungen des Masters reagieren. Dieses Prinzip ermöglicht eine klare Hierarchie und Organisation in der Datenkommunikation.
 
-### **Mikrocontroller:**
+## **Mikrocontroller:**
 
-### **Multi-Master-Prinzip:**
+## **Multi-Master-Prinzip:**
 Das Multi-Master-Prinzip beschreibt ein Konzept in Kommunikationssystemen, bei dem mehrere Geräte (Master) gleichzeitig die Möglichkeit haben, den Datenverkehr zu initiieren und zu steuern, anstatt dass nur ein einzelner Master alle Entscheidungen trifft. Dieses Prinzip findet sich beispielsweise in Bus-Systemen wie I²C oder CAN, wo mehrere Geräte Datenübertragungen starten können.
 
-### **NodeMCU:**
+## **NodeMCU:**
 NodeMCU ist eine Open-Source-Plattform, die auf dem ESP8266 Mikrocontroller basiert. Sie wird oft in Projekten im Bereich Internet of Things (IoT) verwendet, um vernetzte Geräte zu erstellen, die über Wi-Fi kommunizieren.
 
-### **NodeRED:**
+## **NodeRED:**
 eine grafische Entwicklungsumgebung für das Erstellen von IoT-Workflows und Automatisierungen. Sie ermöglicht es, durch Verbinden von sogenannten Nodes (Bausteinen) Daten aus verschiedenen Quellen wie Sensoren, APIs oder Geräten zu verarbeiten, zu transformieren und an Zielsysteme zu senden. Sceenshot:
 ![Screenshot der NodeRED Oberfläche](https://user-images.githubusercontent.com/4663918/63022233-76304400-be70-11e9-8516-cab988df6b1e.png)
 
-### **Sensoren mit Beispielen:** Ein Sensor ist ein Gerät, das physikalische Größen wie Temperatur, Feuchtigkeit, Licht oder Bewegung misst und diese in ein elektrisches Signal umwandelt, das von einem Mikrocontroller oder einem anderen Gerät verarbeitet werden kann. Sensoren sind eine zentrale Komponente in vielen IoT-Anwendungen, um Daten zu sammeln und Automatisierungen auszulösen.
+## **Sensoren mit Beispielen:** Ein Sensor ist ein Gerät, das physikalische Größen wie Temperatur, Feuchtigkeit, Licht oder Bewegung misst und diese in ein elektrisches Signal umwandelt, das von einem Mikrocontroller oder einem anderen Gerät verarbeitet werden kann. Sensoren sind eine zentrale Komponente in vielen IoT-Anwendungen, um Daten zu sammeln und Automatisierungen auszulösen.
 
-### **Sicherheitsprobleme bei IoT:** 
+## **Sicherheitsprobleme bei IoT:** 
 IoT-Geräte sind oft anfällig für Sicherheitsprobleme wie unzureichende Verschlüsselung, schwache Passwörter und fehlende Updates, wodurch sie leicht Ziel von Cyberangriffen werden können.
 
-### **Single-Board-Computer mit Beispielen:**
+## **Single-Board-Computer mit Beispielen:**
 
-### **UART:** 
+## **UART:** 
 Universal Asynchronous Receiver Transmitter ist ein serielles Kommunikationsprotokoll, das Daten zwischen zwei Geräten über zwei Leitungen (Daten senden und empfangen) asynchron überträgt, das bedeutet dass die Datenübertragung ohne ein gemeinsames Taktsignal (Clock) erfolgt. Stattdessen synchronisieren sich Sender und Empfänger mithilfe von Start- und Stopp-Bits am Anfang und Ende jeder Datenübertragung.
 
