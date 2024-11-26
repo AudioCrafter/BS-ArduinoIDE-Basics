@@ -194,10 +194,15 @@ Beispiel für analoge Werte:
 Ein Bus ist ein gemeinsamer Datenweg, über den mehrere Geräte oder Komponenten Informationen austauschen können, indem sie sich denselben Übertragungskanal teilen. Beispielsweise Ein Bus im Auto, der Steuergeräte (z. B. für Motor, ABS, oder Licht) miteinander kommunizieren lässt. oder I2C, der Sensoren und Conputer miteinander Kommunizieren lässt 
 
 ### **Anschlusstechnik Schnittstelle mit Beispielen:**
+beschreibt die physischen und logischen Verbindungen, die verschiedene Geräte oder Systeme miteinander verbinden, um Daten auszutauschen. Sie umfasst sowohl die Hardware (Stecker, Kabel, Ports) als auch die Kommunikationsprotokolle, die den Datenaustausch regeln. Eine Schnittstelle ist der Punkt, an dem zwei Systeme miteinander kommunizieren können.
+
+Beispielsweie RJ45, HDMI, USB
 
 ### **Automatisierungspyramide:**
+![Automatisierungspyramiede](https://www.iph-hannover.de/de/dienstleistungen/automatisierungstechnik/automatisierungspyramide/Automatisierungspyramide.png)
 
 ### **binäre Signale:**
+Binäre Signale sind digitale Signale, die nur zwei Zustände annehmen können, meist 0 und 1. Diese Zustände repräsentieren in der Regel "aus" (0) und "ein" (1) oder niedrig (Low) und hoch (High). Binäre Signale sind die Grundlage der digitalen Kommunikation und der meisten modernen elektronischen Systeme.
 
 ### **Bridge:** 
 "Interface" Gerät, um zwischen verschiedenen System zu kommunizieren. Bekanntestes beispiel: Phillips Hue Bridge, Empfängt signale per W-Lan, und sendet diese Signale weiter an Lampen mit dem Funkstandart Zigbee
@@ -211,6 +216,7 @@ Beispiel für digitale Werte:
 ![Beispiel für einen digitalen Wert](https://github.com/AudioCrafter/BS-ArduinoIDE-Basics/blob/main/Digitale%20werte%20beispiel.png?raw=true)
 
 ### **Embedded Systems:**
+Spezialisierte Computer, die in andere Geräte oder Maschinen integriert sind, um bestimmte, häufig wiederkehrende Aufgaben zu erfüllen. Sie sind darauf ausgelegt, mit der Hardware zu interagieren und eine spezifische Funktion auszuführen, ohne dass ein Benutzer direkt damit interagiert.
 
 ### **ESD:** 
 "Electrostatic Discharge" unkontrollierter Ausgleich elektrischer Ladung zwischen zwei unterschiedlich stark aufgeladenen Objekten. z.B. Der kleine Stromschlag beim anfassen einer Türklinke wenn man über teppich läuft
@@ -225,13 +231,18 @@ Bussystem, das in einer Anlage Feldgeräte wie Messfühler (Sensoren) und Stellg
 I²C (Inter-Integrated Circuit) ist ein einfacher Datenbus, der es Single Board Computern und Sensoren ermöglicht, über nur zwei Leitungen (Daten und Takt) miteinander zu kommunizieren.
 
 ### **Industrie 4.0:**
+bezeichnet die vierte industrielle Revolution, die durch den Einsatz moderner digitaler Technologien in der Fertigungs- und Produktionsindustrie geprägt ist. Sie basiert auf der Vernetzung von Maschinen, Systemen und Produktionsprozessen durch intelligente Technologien und ist stark von der Digitalisierung und Automatisierung geprägt. Ziel ist es, die Produktionsprozesse effizienter, flexibler und autonomer zu gestalten.
 
 ### **Internet of Things:** 
 Internet of Things bezeichnet ein Netzwerk aus miteinander verbundenen physischen Geräten, die über das Internet oder Netzwerk Daten senden, empfangen und oft auch untereinander kommunizieren können, um Prozesse zu automatisieren und Informationen bereitzustellen. Beispiele sind smarte Thermostate oder vernetzte Glühbirnen.
 
 ### **M2M:**
+ Machine to Machine bezeichnet die direkte Kommunikation zwischen Maschinen, Geräten oder Systemen ohne die Notwendigkeit menschlicher Interaktion.
 
 ### **Master-Slave-Prinzip:**
+beschreibt eine Kommunikationsstruktur, bei der ein Master-Gerät die Kontrolle über den Datenaustausch hat und die Slave-Geräte als Reaktion auf Anfragen des Masters handeln. Der Master initiiert die Kommunikation, während die Slaves auf diese Anfragen reagieren und keine eigenständige Kontrolle ausüben.
+
+In vielen Systemen, wie etwa in seriellen Kommunikationsprotokollen oder Bus-Systemen (z. B. I²C), kann nur der Master Daten senden oder empfangen, während die Slaves in der Regel nur auf Anforderungen des Masters reagieren. Dieses Prinzip ermöglicht eine klare Hierarchie und Organisation in der Datenkommunikation.
 
 ### **Mikrocontroller:**
 
@@ -239,6 +250,7 @@ Internet of Things bezeichnet ein Netzwerk aus miteinander verbundenen physische
 Das Multi-Master-Prinzip beschreibt ein Konzept in Kommunikationssystemen, bei dem mehrere Geräte (Master) gleichzeitig die Möglichkeit haben, den Datenverkehr zu initiieren und zu steuern, anstatt dass nur ein einzelner Master alle Entscheidungen trifft. Dieses Prinzip findet sich beispielsweise in Bus-Systemen wie I²C oder CAN, wo mehrere Geräte Datenübertragungen starten können.
 
 ### **NodeMCU:**
+NodeMCU ist eine Open-Source-Plattform, die auf dem ESP8266 Mikrocontroller basiert. Sie wird oft in Projekten im Bereich Internet of Things (IoT) verwendet, um vernetzte Geräte zu erstellen, die über Wi-Fi kommunizieren.
 
 ### **NodeRED:**
 eine grafische Entwicklungsumgebung für das Erstellen von IoT-Workflows und Automatisierungen. Sie ermöglicht es, durch Verbinden von sogenannten Nodes (Bausteinen) Daten aus verschiedenen Quellen wie Sensoren, APIs oder Geräten zu verarbeiten, zu transformieren und an Zielsysteme zu senden. Sceenshot:
