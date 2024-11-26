@@ -180,29 +180,56 @@ void loop() {
 
 
 # Fachbegriffe
+
 **Aktoren mit Beispielen:** Elektrische (steuer) Signale werden in Physikalische größen umgesetzt, wie z.B. Eine LED, Motor, Lautsprecher oder Relay
+
 **analoge Signale:** 
+
 **Anschlusstechnik Bus mit Beispielen:**
+
 **Anschlusstechnik Schnittstelle mit Beispielen:**
+
 **Automatisierungspyramide:**
+
 **binäre Signale:**
+
 **Bridge:** "Interface" Gerät, um zwischen verschiedenen System zu kommunizieren. Bekanntestes beispiel: Phillips Hue Bridge, Empfängt signale per W-Lan, und sendet diese Signale weiter an Lampen mit dem Funkstandart Zigbee
+
 **Cyberphysische Systeme und ihre Einsatzmöglichkeiten:**
+
 **digitale Signale:**
+
 **Embedded Systems:**
+
 **ESD:** "Electrostatic Discharge" unkontrollierter Ausgleich elektrischer Ladung zwischen zwei unterschiedlich stark aufgeladenen Objekten. z.B. Der kleine Stromschlag beim anfassen einer Türklinke wenn man über teppich läuft
+
 **Feldbus:** Bussystem, das in einer Anlage Feldgeräte wie Messfühler (Sensoren) und Stellglieder (Aktoren) zur Kommunikation mit einem Automatisierungsgerät verbindet (rellativ Störungs-unanfällig)
+
 **GPIO:** "General Purpose Input/Output" allgemeiner digitaler Pin an z.B. einem Single Board Computer, dessen Verhalten, unabhängig, ob als Eingabe- oder Ausgabekontakt, durch logische Programmierung frei bestimmbar ist
+
 **I2C:**
+
 **Industrie 4.0:**
+
 **Internet of Things:**
+
 **M2M:**
+
 **Master-Slave-Prinzip:**
+
 **Mikrocontroller:**
+
 **Multi-Master-Prinzip:**
+
 **NodeMCU:**
+
 **NodeRED:**
+
 **Sensoren mit Beispielen:**
+
 **Sicherheitsprobleme bei IoT:**
+
 **Single-Board-Computer mit Beispielen:**
+
 **UART:**
+
