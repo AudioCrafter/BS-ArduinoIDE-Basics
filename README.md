@@ -29,6 +29,9 @@ In der Arduino IDE bezeichnet eine Bibliothek eine Sammlung von vorgefertigten F
 
 Beispiel: Wenn man einen Servo Motor steuern möchte, kann man die Servo.h Library benutzen. Diese wandelt einen einfache Grad Zahl als input in die komplexen Motor steuerungssignale um.
 
+## Debugging
+Systematische Analyse und Behebung (Troubleshooting) von Fehlern die im Code oder auftreten können (z.B. Tippfehler, Logikfehler, Indentierungsfehler)
+
 # Basic File Structure
 
 
@@ -211,6 +214,8 @@ Beispielsweie RJ45, HDMI, USB
 ## **binäre Signale:**
 Binäre Signale sind digitale Signale, die nur zwei Zustände annehmen können, meist 0 und 1. Diese Zustände repräsentieren in der Regel "aus" (0) und "ein" (1) oder niedrig (Low) und hoch (High). Binäre Signale sind die Grundlage der digitalen Kommunikation und der meisten modernen elektronischen Systeme.
 
+
+
 ## **Bridge:** 
 "Interface" Gerät, um zwischen verschiedenen System zu kommunizieren. Bekanntestes beispiel: Phillips Hue Bridge, Empfängt signale per W-Lan, und sendet diese Signale weiter an Lampen mit dem Funkstandart Zigbee
 
@@ -238,7 +243,7 @@ Bussystem, das in einer Anlage Feldgeräte wie Messfühler (Sensoren) und Stellg
 ## **I2C:** 
 I²C (Inter-Integrated Circuit) ist ein einfacher Datenbus, der es Single Board Computern und Sensoren ermöglicht, über nur zwei Leitungen (Daten und Takt) miteinander zu kommunizieren.
 
-### **Industrie 4.0:**
+## **Industrie 4.0:**
 bezeichnet die vierte industrielle Revolution, die durch den Einsatz moderner digitaler Technologien in der Fertigungs- und Produktionsindustrie geprägt ist. Sie basiert auf der Vernetzung von Maschinen, Systemen und Produktionsprozessen durch intelligente Technologien und ist stark von der Digitalisierung und Automatisierung geprägt. Ziel ist es, die Produktionsprozesse effizienter, flexibler und autonomer zu gestalten.
 
 ## **Internet of Things:** 
@@ -260,11 +265,13 @@ Das Multi-Master-Prinzip beschreibt ein Konzept in Kommunikationssystemen, bei d
 ## **NodeMCU:**
 NodeMCU ist eine Open-Source-Plattform, die auf dem ESP8266 Mikrocontroller basiert. Sie wird oft in Projekten im Bereich Internet of Things (IoT) verwendet, um vernetzte Geräte zu erstellen, die über Wi-Fi kommunizieren.
 
+![NodeMCU ESP8266 Board](https://upload.wikimedia.org/wikipedia/commons/e/e5/Nodemcu_amica_bot_02.png)
+
 ## **NodeRED:**
 eine grafische Entwicklungsumgebung für das Erstellen von IoT-Workflows und Automatisierungen. Sie ermöglicht es, durch Verbinden von sogenannten Nodes (Bausteinen) Daten aus verschiedenen Quellen wie Sensoren, APIs oder Geräten zu verarbeiten, zu transformieren und an Zielsysteme zu senden. Sceenshot:
 ![Screenshot der NodeRED Oberfläche](https://user-images.githubusercontent.com/4663918/63022233-76304400-be70-11e9-8516-cab988df6b1e.png)
 
-## **Sensoren mit Beispielen:** Ein Sensor ist ein Gerät, das physikalische Größen wie Temperatur, Feuchtigkeit, Licht oder Bewegung misst und diese in ein elektrisches Signal umwandelt, das von einem Mikrocontroller oder einem anderen Gerät verarbeitet werden kann. Sensoren sind eine zentrale Komponente in vielen IoT-Anwendungen, um Daten zu sammeln und Automatisierungen auszulösen.
+## **Sensoren mit Beispielen:** Ein Sensor ist ein Gerät, das chemische oder physikalische Größen wie Temperatur, Feuchtigkeit, Licht oder Bewegung misst und diese in ein elektrisches Signal umwandelt, das von einem Mikrocontroller oder einem anderen Gerät verarbeitet werden kann. Sensoren sind eine zentrale Komponente in vielen IoT-Anwendungen, um Daten zu sammeln und Automatisierungen auszulösen.
 
 ## **Sicherheitsprobleme bei IoT:** 
 IoT-Geräte sind oft anfällig für Sicherheitsprobleme wie unzureichende Verschlüsselung, schwache Passwörter und fehlende Updates, wodurch sie leicht Ziel von Cyberangriffen werden können.
