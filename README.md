@@ -1,4 +1,4 @@
-# BS-ArduinoIDE-Basics
+# BS-ITT-Basics
 ## Inhalt
 
 [Fachbegriffe](#Fachbegriffe)
