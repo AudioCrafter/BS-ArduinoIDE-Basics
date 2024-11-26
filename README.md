@@ -182,9 +182,13 @@ void loop() {
 
 **Aktoren mit Beispielen:** Elektrische (steuer) Signale werden in Physikalische größen umgesetzt, wie z.B. Eine LED, Motor, Lautsprecher oder Relay
 
-**analoge Signale:** 
+**analoge Signale:**  Sensoren erzeugen bzw. Aktoren benötigen analoge oder digitale Signale meist in Form einer elektrischen Spannung. Analoge Signale haben einen stufenlosen und beliebig feinen Verlauf. Da  Analogsignale einen kontinuierlichen Vorgang zeitlich kontinuierlich abbilden, bezeichnet man diese auch als wert– und zeitkontinuierlich.
+Beispiel für analoge Werte:
 
-**Anschlusstechnik Bus mit Beispielen:**
+![Beispiel für einen Analogen Wert](https://github.com/AudioCrafter/BS-ArduinoIDE-Basics/blob/main/Analoge%20werte%20beispiel.png?raw=true)
+
+
+**Anschlusstechnik Bus mit Beispielen:** Ein Bus ist ein gemeinsamer Datenweg, über den mehrere Geräte oder Komponenten Informationen austauschen können, indem sie sich denselben Übertragungskanal teilen. Beispielsweise Ein Bus im Auto, der Steuergeräte (z. B. für Motor, ABS, oder Licht) miteinander kommunizieren lässt. oder I2C, der Sensoren und Conputer miteinander Kommunizieren lässt 
 
 **Anschlusstechnik Schnittstelle mit Beispielen:**
 
@@ -196,7 +200,10 @@ void loop() {
 
 **Cyberphysische Systeme und ihre Einsatzmöglichkeiten:**
 
-**digitale Signale:**
+**digitale Signale:** Digitale Signale können nur einzelne, fest vorgegebene Werte (vorgegebener Symbolvorrat) annehmen. Somit bezeichnet man ein digitales Signal auch Signal, das durch diskrete Werte (Zustände) repräsentiert wird.
+Beispiel für digitale Werte:
+
+![Beispiel für einen digitalen Wert](https://github.com/AudioCrafter/BS-ArduinoIDE-Basics/blob/main/Digitale%20werte%20beispiel.png?raw=true)
 
 **Embedded Systems:**
 
@@ -206,11 +213,11 @@ void loop() {
 
 **GPIO:** "General Purpose Input/Output" allgemeiner digitaler Pin an z.B. einem Single Board Computer, dessen Verhalten, unabhängig, ob als Eingabe- oder Ausgabekontakt, durch logische Programmierung frei bestimmbar ist
 
-**I2C:**
+**I2C:** I²C (Inter-Integrated Circuit) ist ein einfacher Datenbus, der es Single Board Computern und Sensoren ermöglicht, über nur zwei Leitungen (Daten und Takt) miteinander zu kommunizieren.
 
 **Industrie 4.0:**
 
-**Internet of Things:**
+**Internet of Things:** Internet of Things bezeichnet ein Netzwerk aus miteinander verbundenen physischen Geräten, die über das Internet oder Netzwerk Daten senden, empfangen und oft auch untereinander kommunizieren können, um Prozesse zu automatisieren und Informationen bereitzustellen. Beispiele sind smarte Thermostate oder vernetzte Glühbirnen.
 
 **M2M:**
 
@@ -226,9 +233,9 @@ void loop() {
 
 **Sensoren mit Beispielen:**
 
-**Sicherheitsprobleme bei IoT:**
+**Sicherheitsprobleme bei IoT:** IoT-Geräte sind oft anfällig für Sicherheitsprobleme wie unzureichende Verschlüsselung, schwache Passwörter und fehlende Updates, wodurch sie leicht Ziel von Cyberangriffen werden können.
 
 **Single-Board-Computer mit Beispielen:**
 
-**UART:**
+**UART:** Universal Asynchronous Receiver Transmitter ist ein serielles Kommunikationsprotokoll, das Daten zwischen zwei Geräten über zwei Leitungen (Daten senden und empfangen) asynchron überträgt, das bedeutet dass die Datenübertragung ohne ein gemeinsames Taktsignal (Clock) erfolgt. Stattdessen synchronisieren sich Sender und Empfänger mithilfe von Start- und Stopp-Bits am Anfang und Ende jeder Datenübertragung.
 
