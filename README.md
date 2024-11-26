@@ -208,6 +208,7 @@ Binäre Signale sind digitale Signale, die nur zwei Zustände annehmen können, 
 "Interface" Gerät, um zwischen verschiedenen System zu kommunizieren. Bekanntestes beispiel: Phillips Hue Bridge, Empfängt signale per W-Lan, und sendet diese Signale weiter an Lampen mit dem Funkstandart Zigbee
 
 ## **Cyberphysische Systeme und ihre Einsatzmöglichkeiten:**
+Systeme, die physische Prozesse mit computergestützten Prozessen kombinieren, indem sie Daten sammeln (mit Sensoren), verarbeiten und auf physische Umgebungen reagieren (mit Aktoren). Sie finden Anwendung in Bereichen wie der Industrie 4.0, intelligente Verkehrssysteme, Medizin (z.B. chirurgische Roboter), Smart Homes, etc.
 
 ## **digitale Signale:** 
 Digitale Signale können nur einzelne, fest vorgegebene Werte (vorgegebener Symbolvorrat) annehmen. Somit bezeichnet man ein digitales Signal auch Signal, das durch diskrete Werte (Zustände) repräsentiert wird.
