@@ -22,9 +22,16 @@
   [LED](#led)
 
 
+# Generelle infos
 
+## was sind Bibiliotheken / Libraries?
+In der Arduino IDE bezeichnet eine Bibliothek eine Sammlung von vorgefertigten Funktionen, Klassen und Anweisungen, die dazu dienen, bestimmte Aufgaben oder die Steuerung von Hardware-Komponenten zu erleichtern. Diese Bibliotheken ermöglichen es Entwicklern, komplexe Funktionen wie die Steuerung von Motoren, Sensoren oder Displays zu verwenden, ohne den gesamten Code selbst schreiben zu müssen. Beispiele sind Bibliotheken für DHT11-Temperatursensoren oder Servo-Motoren, die mit wenigen Zeilen Code ansteuerbar sind.
+
+Beispiel: Wenn man einen Servo Motor steuern möchte, kann man die Servo.h Library benutzen. Diese wandelt einen einfache Grad Zahl als input in die komplexen Motor steuerungssignale um.
 
 # Basic File Structure
+
+
 
 Zeilen die mit // anfangen, sind ``// Kommentare``, diese haben nichts mit der ausführung des Codes zutun, und werden nur zur übersicht verwendet
 ```c++
