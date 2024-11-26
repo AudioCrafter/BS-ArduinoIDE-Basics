@@ -1,9 +1,6 @@
 # BS-ArduinoIDE-Basics
 ## Inhalt
 
-Inhaltsangabe coming soon haha
-
-
 [Basic File Structure](#basic-file-structure)
 
 [Leeres Skript](#leeres-skript)
