@@ -3,6 +3,8 @@
 
 [Fachbegriffe](#Fachbegriffe)
 
+[Generelle Infos](#generelle-infos)
+
 [Basic File Structure](#basic-file-structure)
 
 [Leeres Skript](#leeres-skript)
