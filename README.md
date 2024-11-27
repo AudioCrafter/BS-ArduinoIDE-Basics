@@ -1,4 +1,16 @@
 # BS-ITT-Basics
+
+Beispiele die im unterricht spezifisch für den test erwähnt wurden:
+
+Variable inizialisieren und deklarieren
+
+pin ansprechen (Input oder output definieren)
+
+serielle schnitstelle
+
+sensorwert = digitalread(pinname)
+
+
 ## Inhalt
 
 [Fachbegriffe](#Fachbegriffe)
@@ -22,7 +34,6 @@
   [Piezo Buzzer](#piezo-buzzer)
   
   [LED](#led)
-
 
 
 # Fachbegriffe
