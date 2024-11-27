@@ -1,6 +1,6 @@
 # BS-ITT-Basics
 
-Beispiele die im unterricht spezifisch für den test erwähnt wurden:
+### Beispiele die im unterricht spezifisch für den test erwähnt wurden:
 
 Variable inizialisieren und deklarieren
 
