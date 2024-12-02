@@ -119,7 +119,8 @@ NodeMCU ist eine Open-Source-Plattform, die auf dem ESP8266 Mikrocontroller basi
 eine grafische Entwicklungsumgebung für das Erstellen von IoT-Workflows und Automatisierungen. Sie ermöglicht es, durch Verbinden von sogenannten Nodes (Bausteinen) Daten aus verschiedenen Quellen wie Sensoren, APIs oder Geräten zu verarbeiten, zu transformieren und an Zielsysteme zu senden. Sceenshot:
 ![Screenshot der NodeRED Oberfläche](https://user-images.githubusercontent.com/4663918/63022233-76304400-be70-11e9-8516-cab988df6b1e.png)
 
-## **Sensoren mit Beispielen:** Ein Sensor ist ein Gerät, das chemische oder physikalische Größen wie Temperatur, Feuchtigkeit, Licht oder Bewegung misst und diese in ein elektrisches Signal umwandelt, das von einem Mikrocontroller oder einem anderen Gerät verarbeitet werden kann. Sensoren sind eine zentrale Komponente in vielen IoT-Anwendungen, um Daten zu sammeln und Automatisierungen auszulösen.
+## **Sensoren mit Beispielen:** 
+Ein Sensor ist ein Gerät, das chemische oder physikalische Größen wie Temperatur, Feuchtigkeit, Licht oder Bewegung misst und diese in ein elektrisches Signal umwandelt, das von einem Mikrocontroller oder einem anderen Gerät verarbeitet werden kann. Sensoren sind eine zentrale Komponente in vielen IoT-Anwendungen, um Daten zu sammeln und Automatisierungen auszulösen.
 
 ## **Sicherheitsprobleme bei IoT:** 
 IoT-Geräte sind oft anfällig für Sicherheitsprobleme wie unzureichende Verschlüsselung, schwache Passwörter und fehlende Updates, wodurch sie leicht Ziel von Cyberangriffen werden können.
