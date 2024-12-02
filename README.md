@@ -49,7 +49,7 @@ Beispiel für analoge Werte:
 
 
 ## **Anschlusstechnik Bus mit Beispielen:** 
-Ein Bus ist ein gemeinsamer Datenweg, über den mehrere Geräte oder Komponenten Informationen austauschen können, indem sie sich denselben Übertragungskanal teilen. Beispielsweise Ein Bus im Auto, der Steuergeräte (z. B. für Motor, ABS, oder Licht) miteinander kommunizieren lässt. oder I2C, der Sensoren und Conputer miteinander Kommunizieren lässt 
+Ein Bus ist ein gemeinsamer Datenweg, über den mehrere Geräte oder Komponenten Informationen austauschen können, indem sie sich denselben Übertragungskanal teilen. Beispielsweise Ein Bus im Auto, der Steuergeräte (z. B. für Motor, ABS, oder Licht) miteinander kommunizieren lässt. oder I2C, der Sensoren und Computer miteinander Kommunizieren lässt. Oder z.B. USB, PCIe
 
 ## **Anschlusstechnik Schnittstelle mit Beispielen:**
 beschreibt die physischen und logischen Verbindungen, die verschiedene Geräte oder Systeme miteinander verbinden, um Daten auszutauschen. Sie umfasst sowohl die Hardware (Stecker, Kabel, Ports) als auch die Kommunikationsprotokolle, die den Datenaustausch regeln. Eine Schnittstelle ist der Punkt, an dem zwei Systeme miteinander kommunizieren können.
